@@ -1,0 +1,258 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Devenir Vendeur KOLOSAL Sandwich</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <script src="https://cdn.jsdelivr.net/npm/feather-icons/dist/feather.min.js"></script>
+    <script src="https://unpkg.com/feather-icons"></script>
+    <link rel="stylesheet" href="style.css">
+    <script>
+        tailwind.config = {
+            theme: {
+                extend: {
+                    colors: {
+                        primary: '#FF8C5A',
+                        secondary: '#4CAF50',
+                        cream: '#FFF8F1',
+                        dark: '#333333',
+                    }
+                }
+            }
+        }
+    </script>
+</head>
+<body class="font-sans antialiased">
+    <custom-header></custom-header>
+    
+    <main>
+        <!-- Hero Section -->
+        <section class="bg-gradient-to-r from-cream to-orange-50 py-16 px-4">
+            <div class="container mx-auto max-w-6xl grid md:grid-cols-2 gap-12 items-center">
+                <div>
+                    <h1 class="text-4xl md:text-5xl font-bold text-dark mb-6">Devenez vendeur affilié KOLOSAL et gagnez chaque jour</h1>
+                    <p class="text-lg text-gray-600 mb-8">Rejoignez un réseau de chance et d'énergie unique. Nous vous formons, vous suivons, et bien sûr, nous vous accompagnons. Vous vendez, vous gagnez.</p>
+                    <div class="flex flex-col sm:flex-row gap-4">
+                        <a href="#inscription" class="bg-primary hover:bg-orange-600 text-white font-semibold py-3 px-8 rounded-full transition duration-300 text-center">Je veux devenir vendeur</a>
+                        <a href="#conditions" class="bg-secondary hover:bg-green-600 text-white font-semibold py-3 px-8 rounded-full transition duration-300 text-center">Lire les conditions d'affiliation</a>
+                    </div>
+                </div>
+                <div class="bg-orange-100 rounded-2xl p-12 h-80 flex items-center justify-center">
+                        <img src="https://st.depositphotos.com/1044737/2508/i/450/depositphotos_25081569-stock-photo-sub-sandwiches-with-salami-and.jpg" alt="Vendeur KOLOSAL en action" class="rounded-xl object-cover w-full h-full">
+                    <!-- <i data-feather="users" class="w-24 h-24 text-primary"></i> -->
+                </div>
+            </div>
+        </section>
+
+        <!-- About Section -->
+        <section id="about" class="py-16 px-4 bg-white">
+            <div class="container mx-auto max-w-4xl text-center">
+                <h2 class="text-3xl font-bold text-dark mb-8">Qui sommes-nous ?</h2>
+                <p class="text-lg text-gray-600 leading-relaxed">
+                    KOLOSAL Sandwich est une marque haïtienne de restauration rapide. Notre mission : créer des opportunités de revenus pour tous les jeunes, élèves, étudiants, et aspirants vendeurs à travers Haïti. Nous valorisons la détermination, l'esprit communautaire positif, ainsi que le sens du travail et du bien-être.
+                </p>
+            </div>
+        </section>
+
+        <!-- Rules Section -->
+        <section id="conditions" class="py-16 px-4 bg-cream">
+            <div class="container mx-auto max-w-6xl">
+                <h2 class="text-3xl font-bold text-dark text-center mb-12">Les règles simples pour devenir vendeur affilié KOLOSAL</h2>
+                <p class="text-lg text-gray-600 text-center mb-12">Nos conditions sont claires et accessibles. Respectez-les et notre équipe vous accompagnera pas à pas.</p>
+                
+                <div class="grid md:grid-cols-2 lg:grid-cols-4 gap-6 mb-12">
+                    <div class="bg-white rounded-2xl p-6 shadow-lg">
+                        <div class="w-12 h-12 bg-orange-100 rounded-full flex items-center justify-center mb-4">
+                            <i data-feather="shield" class="text-primary"></i>
+                        </div>
+                        <h3 class="font-semibold text-lg mb-2">Respect & hygiène</h3>
+                        <p class="text-gray-600">Porter des tenues propres, respectueuses et soignées.</p>
+                    </div>
+                    
+                    <div class="bg-white rounded-2xl p-6 shadow-lg">
+                        <div class="w-12 h-12 bg-green-100 rounded-full flex items-center justify-center mb-4">
+                            <i data-feather="clock" class="text-secondary"></i>
+                        </div>
+                        <h3 class="font-semibold text-lg mb-2">Transparence & assiduité</h3>
+                        <p class="text-gray-600">Être ponctuel et vendre uniquement les produits KOLOSAL.</p>
+                    </div>
+                    
+                    <div class="bg-white rounded-2xl p-6 shadow-lg">
+                        <div class="w-12 h-12 bg-blue-100 rounded-full flex items-center justify-center mb-4">
+                            <i data-feather="map-pin" class="text-blue-500"></i>
+                        </div>
+                        <h3 class="font-semibold text-lg mb-2">Zone de distribution</h3>
+                        <p class="text-gray-600">Vendre uniquement dans les quartiers, écoles ou marchés assignés.</p>
+                    </div>
+                    
+                    <div class="bg-white rounded-2xl p-6 shadow-lg">
+                        <div class="w-12 h-12 bg-red-100 rounded-full flex items-center justify-center mb-4">
+                            <i data-feather="alert-circle" class="text-red-500"></i>
+                        </div>
+                        <h3 class="font-semibold text-lg mb-2">Cas de non-respect</h3>
+                        <p class="text-gray-600">Sera traité selon notre politique interne et réglementée.</p>
+                    </div>
+                </div>
+                
+                <div class="text-center">
+                    <a href="#inscription" class="bg-secondary hover:bg-green-600 text-white font-semibold py-3 px-8 rounded-full transition duration-300 inline-block">J'ai lu et je veux m'inscrire</a>
+                </div>
+            </div>
+        </section>
+
+        <!-- Benefits Section -->
+        <section class="py-16 px-4 bg-white">
+            <div class="container mx-auto max-w-6xl">
+                <h2 class="text-3xl font-bold text-dark text-center mb-12">Pourquoi devenir vendeur KOLOSAL ?</h2>
+                <p class="text-lg text-gray-600 text-center mb-12">Des bénéfices concrets pour se démarquer et pour avancer rapidement…</p>
+                
+                <div class="grid md:grid-cols-2 lg:grid-cols-5 gap-6">
+                    <div class="bg-cream rounded-2xl p-6 text-center">
+                        <div class="w-16 h-16 bg-orange-100 rounded-full flex items-center justify-center mx-auto mb-4">
+                            <i data-feather="dollar-sign" class="text-primary"></i>
+                        </div>
+                        <h3 class="font-semibold mb-2">Revenus accrus</h3>
+                        <p class="text-sm text-gray-600">Gagnez chaque jour sur chaque vente réalisée.</p>
+                    </div>
+                    
+                    <div class="bg-cream rounded-2xl p-6 text-center">
+                        <div class="w-16 h-16 bg-green-100 rounded-full flex items-center justify-center mx-auto mb-4">
+                            <i data-feather="book-open" class="text-secondary"></i>
+                        </div>
+                        <h3 class="font-semibold mb-2">Formation gratuite</h3>
+                        <p class="text-sm text-gray-600">Apprenez à vendre et à gérer votre activité.</p>
+                    </div>
+                    
+                    <div class="bg-cream rounded-2xl p-6 text-center">
+                        <div class="w-16 h-16 bg-blue-100 rounded-full flex items-center justify-center mx-auto mb-4">
+                            <i data-feather="user" class="text-blue-500"></i>
+                        </div>
+                        <h3 class="font-semibold mb-2">Autonomie personnelle</h3>
+                        <p class="text-sm text-gray-600">Travaillez à votre rythme, selon vos horaires.</p>
+                    </div>
+                    
+                    <div class="bg-cream rounded-2xl p-6 text-center">
+                        <div class="w-16 h-16 bg-purple-100 rounded-full flex items-center justify-center mx-auto mb-4">
+                            <i data-feather="heart" class="text-purple-500"></i>
+                        </div>
+                        <h3 class="font-semibold mb-2">Soutien constant</h3>
+                        <p class="text-sm text-gray-600">L'équipe KOLOSAL vous accompagne sur le terrain.</p>
+                    </div>
+                    
+                    <div class="bg-cream rounded-2xl p-6 text-center">
+                        <div class="w-16 h-16 bg-yellow-100 rounded-full flex items-center justify-center mx-auto mb-4">
+                            <i data-feather="award" class="text-yellow-500"></i>
+                        </div>
+                        <h3 class="font-semibold mb-2">Objectifs et primes</h3>
+                        <p class="text-sm text-gray-600">Des bonus réguliers selon vos performances.</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Registration Form -->
+        <section id="inscription" class="py-16 px-4 bg-gradient-to-r from-cream to-orange-50">
+            <div class="container mx-auto max-w-6xl grid md:grid-cols-2 gap-12">
+                <div>
+                    <h2 class="text-3xl font-bold text-dark mb-6">Rejoins-nous maintenant !</h2>
+                    <p class="text-lg text-gray-600 mb-8">Remplis ce formulaire pour postuler. En envoyant ta demande, tu t'engages à respecter nos conditions.</p>
+                    <div class="bg-orange-100 rounded-2xl p-8 h-64 flex items-center justify-center">
+                        <img src="https://tse4.mm.bing.net/th/id/OIP.Qy1EUikIBoeKiSmVyp9LqAHaEK?w=1920&h=1080&rs=1&pid=ImgDetMain&o=7&rm=3" alt="Vendeur KOLOSAL en action" class="rounded-xl object-cover w-full h-full">
+                    </div>
+                </div>
+                
+                <div class="bg-white rounded-2xl p-8 shadow-lg">
+                   <form action="https://formspree.io/f/xdkpqaja" method="POST" class="space-y-6">
+  <div>
+    <label class="block text-sm font-medium text-gray-700 mb-2">Nom complet</label>
+    <input type="text" name="nom" placeholder="Nom et prénom" class="w-full px-4 py-3 border border-gray-300 rounded-lg focus:ring-2 focus:ring-primary focus:border-transparent" required>
+  </div>
+
+  <div class="grid grid-cols-2 gap-4">
+    <div>
+      <label class="block text-sm font-medium text-gray-700 mb-2">Âge</label>
+      <input type="number" name="age" class="w-full px-4 py-3 border border-gray-300 rounded-lg focus:ring-2 focus:ring-primary focus:border-transparent" required>
+    </div>
+    <div>
+      <label class="block text-sm font-medium text-gray-700 mb-2">Téléphone</label>
+      <input type="tel" name="telephone" placeholder="+509 XX XX XX XX" class="w-full px-4 py-3 border border-gray-300 rounded-lg focus:ring-2 focus:ring-primary focus:border-transparent" required>
+    </div>
+  </div>
+
+  <div>
+    <label class="block text-sm font-medium text-gray-700 mb-2">Email</label>
+    <input type="email" name="email" class="w-full px-4 py-3 border border-gray-300 rounded-lg focus:ring-2 focus:ring-primary focus:border-transparent" required>
+  </div>
+
+  <div>
+    <label class="block text-sm font-medium text-gray-700 mb-2">Commune / Zone desservie</label>
+    <input type="text" name="zone" class="w-full px-4 py-3 border border-gray-300 rounded-lg focus:ring-2 focus:ring-primary focus:border-transparent">
+  </div>
+
+  <div>
+    <label class="block text-sm font-medium text-gray-700 mb-2">Statut</label>
+    <select name="statut" class="w-full px-4 py-3 border border-gray-300 rounded-lg focus:ring-2 focus:ring-primary focus:border-transparent" required>
+      <option value="">Sélectionner</option>
+      <option value="Étudiant">Étudiant</option>
+      <option value="Salarié">Salarié</option>
+      <option value="Entrepreneur">Entrepreneur</option>
+    </select>
+  </div>
+
+  <div class="flex items-center">
+    <input type="checkbox" name="conditions" id="conditions-agree" class="w-4 h-4 text-primary focus:ring-primary border-gray-300 rounded" required>
+    <label for="conditions-agree" class="ml-2 text-sm text-gray-600">J'ai lu et j'accepte les conditions d'affiliation KOLOSAL.</label>
+  </div>
+
+  <!-- Champ anti-spam invisible -->
+  <input type="text" name="_gotcha" style="display:none">
+
+  <button type="submit" class="w-full bg-primary hover:bg-orange-600 text-white font-semibold py-3 px-8 rounded-lg transition duration-300">Envoyer ma demande</button>
+</form>
+                </div>
+            </div>
+        </section>
+
+        <!-- Values Gallery -->
+        <section class="py-16 px-4 bg-white">
+            <div class="container mx-auto max-w-6xl">
+                <div class="grid md:grid-cols-3 gap-8">
+                    <div class="text-center">
+                        <div class="bg-orange-100 rounded-2xl p-8 h-48 mb-4 flex items-center justify-center">
+                            <img src="http://static.photos/cityscape/320x240/1" alt="Stands KOLOSAL" class="rounded-xl object-cover w-full h-full">
+                        </div>
+                        <h3 class="font-semibold text-lg mb-2">Notre stand</h3>
+                        <p class="text-gray-600">Retrouvez nos points de vente partout en ville, sur les campus et marchés.</p>
+                    </div>
+                    
+                    <div class="text-center">
+                        <div class="bg-green-100 rounded-2xl p-8 h-48 mb-4 flex items-center justify-center">
+                            <img src="http://static.photos/people/320x240/2" alt="Ambiance KOLOSAL" class="rounded-xl object-cover w-full h-full">
+                        </div>
+                        <h3 class="font-semibold text-lg mb-2">Ambiance KOLOSAL</h3>
+                        <p class="text-gray-600">Des sourires, de la bonne humeur et un esprit d'équipe.</p>
+                    </div>
+                    
+                    <div class="text-center">
+                        <div class="bg-yellow-100 rounded-2xl p-8 h-48 mb-4 flex items-center justify-center">
+                            <img src="https://th.bing.com/th/id/R.928d55e0fe7852b01281d1a1541fd67b?rik=ArAHAXiBd6vkNA&pid=ImgRaw&r=0" alt="Produits KOLOSAL" class="rounded-xl object-cover w-full h-full">
+                        </div>
+                        <h3 class="font-semibold text-lg mb-2">Nos produits</h3>
+                        <p class="text-gray-600">Des sandwichs savoureux, prêts à vendre et à emporter.</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <custom-footer></custom-footer>
+
+    <script src="components/header.js"></script>
+    <script src="components/footer.js"></script>
+    <script src="script.js"></script>
+    <script>
+        feather.replace();
+    </script>
+</body>
+</html>
