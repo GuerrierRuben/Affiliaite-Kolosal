@@ -104,7 +104,7 @@ class CustomHeader extends HTMLElement {
                     </nav>
                     
                     <button class="mobile-menu-btn">
-                        <i data-feather="menu"></i>
+                        <i data-feather="menu">☰</i>
                     </button>
                 </div>
             </header>
