@@ -61,7 +61,7 @@ class CustomHeader extends HTMLElement {
                 
                 .mobile-menu-btn {
                     display: none;
-                    background: none;
+                    background: black;
                     border: none;
                     cursor: pointer;
                 }
@@ -86,6 +86,9 @@ class CustomHeader extends HTMLElement {
                     .mobile-menu-btn {
                         display: block;
                     }
+                     .logo {
+                   width: 30%;
+                }
                 }
             </style>
             
