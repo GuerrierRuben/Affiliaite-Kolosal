@@ -64,6 +64,8 @@ class CustomHeader extends HTMLElement {
                     background: none;
                     border: none;
                     cursor: pointer;
+                    font-size:25px;
+                    font-weight:800px;
                 }
                 
                 @media (max-width: 768px) {
